@@ -1,0 +1,376 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>cukurukuk — Bug Bounty Portfolio</title>
+  <meta name="description" content="Portfolio of cukurukuk, a security researcher on the Bugcrowd HackerOne portal. 95.24% accuracy across 20 valid vulnerabilities." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="css/style.css" />
+  <link rel="icon" href="assets/avatar.jpg" />
+</head>
+<body>
+
+  <header class="site-header" id="top">
+    <div class="container header-inner">
+      <a class="brand" href="#top">
+        <img class="brand-mark" src="assets/avatar.jpg" alt="cukurukuk avatar" />
+        <span class="brand-text">cukurukuk</span>
+        <span class="brand-role">security researcher</span>
+      </a>
+
+      <nav class="site-nav" id="siteNav" aria-label="Primary">
+        <a class="nav-link" href="#about">About</a>
+        <a class="nav-link" href="#stats">Stats</a>
+        <a class="nav-link" href="#performance">Performance</a>
+        <a class="nav-link" href="#achievements">Achievements</a>
+        <a class="nav-link" href="#halloffame">Hall of Fame</a>
+        <a class="nav-link" href="#contact">Contact</a>
+      </nav>
+
+      <div class="header-actions">
+        <button class="icon-btn" id="themeToggle" type="button" aria-label="Toggle color theme">
+          <svg class="icon-sun" viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="5"/><path d="M12 1v3M12 20v3M4.2 4.2l2.1 2.1M17.7 17.7l2.1 2.1M1 12h3M20 12h3M4.2 19.8l2.1-2.1M17.7 6.3l2.1-2.1"/></svg>
+          <svg class="icon-moon" viewBox="0 0 24 24" aria-hidden="true"><path d="M21 12.8A9 9 0 1 1 11.2 3a7 7 0 0 0 9.8 9.8z"/></svg>
+        </button>
+        <button class="menu-toggle" id="menuToggle" type="button" aria-label="Toggle navigation menu" aria-expanded="false" aria-controls="siteNav">
+          <span class="bar"></span>
+          <span class="bar"></span>
+          <span class="bar"></span>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero">
+      <div class="hero-grid-overlay" aria-hidden="true"></div>
+      <div class="container hero-inner">
+        <div class="hero-copy">
+          <p class="hero-eyebrow reveal">
+            <span class="pulse-dot" aria-hidden="true"></span>
+            Bugcrowd Hacker &middot; Indonesia
+          </p>
+          <h1 class="hero-title reveal">
+            Hey, I'm <span class="grad-text">cukurukuk</span>
+          </h1>
+          <p class="hero-tagline reveal" data-reveal-delay="1">
+            Independent bug bounty hunter focused on web application
+            vulnerabilities. Recon, triage, and impact &mdash; in that order.
+          </p>
+          <p class="hero-bio reveal" data-reveal-delay="2">
+            A <strong>95.24% signal-to-noise ratio</strong> across 20 valid
+            findings. Almost everything I submit is a real bug &mdash; no
+            spam, no duplicates, no guesswork.
+          </p>
+          <div class="hero-cta reveal" data-reveal-delay="3">
+            <a class="btn btn-primary" href="#performance">View Findings</a>
+            <a class="btn btn-ghost" href="https://bugcrowd.com/h/cukurukuk" target="_blank" rel="noopener noreferrer">
+              Bugcrowd Profile
+              <svg class="btn-arrow" viewBox="0 0 24 24" aria-hidden="true"><path d="M7 17L17 7M9 7h8v8"/></svg>
+            </a>
+          </div>
+        </div>
+
+        <div class="hero-visual reveal" data-reveal-delay="2">
+          <div class="avatar-ring" aria-hidden="true"></div>
+          <div class="avatar-frame">
+            <img class="avatar-img" src="assets/avatar.jpg" alt="Portrait of cukurukuk" />
+          </div>
+          <div class="avatar-badge-card">
+            <img class="mini-badge" src="assets/badge-shogun.svg" alt="" aria-hidden="true" />
+            <div class="badge-card-text">
+              <span class="badge-card-title">Submission Shogun</span>
+              <span class="badge-card-sub">Level 3</span>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="hero-scroll" aria-hidden="true">
+        <span class="scroll-line"></span>
+        <span class="scroll-text">scroll</span>
+      </div>
+    </section>
+
+    <section class="section stats" id="stats">
+      <div class="container">
+        <div class="stats-grid">
+          <div class="stat-card reveal">
+            <span class="stat-value" data-count="25" data-suffix="">0</span>
+            <span class="stat-label">All-time points</span>
+          </div>
+          <div class="stat-card reveal" data-reveal-delay="1">
+            <span class="stat-value" data-count="20">0</span>
+            <span class="stat-label">Valid vulnerabilities</span>
+          </div>
+          <div class="stat-card reveal" data-reveal-delay="2">
+            <span class="stat-value" data-count="95.24" data-decimals="2" data-suffix="%">0</span>
+            <span class="stat-label">Accuracy</span>
+          </div>
+          <div class="stat-card reveal" data-reveal-delay="3">
+            <span class="stat-value" data-count="1">0</span>
+            <span class="stat-label">Program joined</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section about" id="about">
+      <div class="container about-grid">
+        <div class="about-copy reveal">
+          <p class="section-eyebrow">01 &mdash; About</p>
+          <h2 class="section-title">A researcher who values <span class="grad-text">signal over noise</span></h2>
+          <p class="section-text">
+            I'm <strong>cukurukuk</strong>, a security researcher participating in
+            bug bounty programs through Bugcrowd. My work centers on web
+            applications &mdash; finding real, reproducible vulnerabilities and
+            reporting them clearly so teams can fix them.
+          </p>
+          <p class="section-text">
+            With an accuracy of <strong>95.24%</strong>, my reports clear triage
+            and reach retest instead of coming back as informative or duplicate.
+            I don't chase the leaderboard; I chase the exploitable path &mdash;
+            then write the report a triager can act on without a follow-up call.
+          </p>
+          <ul class="fact-list">
+            <li class="fact-item reveal">
+              <span class="fact-icon">
+                <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 21s-7-4.5-9-9a5 5 0 0 1 9-3 5 5 0 0 1 9 3c-2 4.5-9 9-9 9z"/></svg>
+              </span>
+              <div>
+                <span class="fact-title">Web App Focus</span>
+                <span class="fact-text">17 of 20 valid findings on web targets</span>
+              </div>
+            </li>
+            <li class="fact-item reveal" data-reveal-delay="1">
+              <span class="fact-icon">
+                <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg>
+              </span>
+              <div>
+                <span class="fact-title">Trusted Reports</span>
+                <span class="fact-text">Hall of Fame placement on a public program</span>
+              </div>
+            </li>
+            <li class="fact-item reveal" data-reveal-delay="2">
+              <span class="fact-icon">
+                <svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 2"/></svg>
+              </span>
+              <div>
+                <span class="fact-title">Low Noise</span>
+                <span class="fact-text">Near-zero duplicate and informative rate</span>
+              </div>
+            </li>
+          </ul>
+        </div>
+
+        <aside class="about-card reveal" data-reveal-delay="1">
+          <div class="about-card-glow" aria-hidden="true"></div>
+          <p class="about-card-label">Signal, not noise</p>
+          <p class="about-card-text">
+            Two Bugcrowd achievement levels earned the honest way &mdash; through
+            reports that survive triage, reproduce cleanly, and hold up to
+            retest.
+          </p>
+          <div class="about-card-tags">
+            <span class="tag">recon</span>
+            <span class="tag">appsec</span>
+            <span class="tag">exploitation</span>
+            <span class="tag">triage</span>
+            <span class="tag">retest</span>
+          </div>
+        </aside>
+      </div>
+    </section>
+
+    <section class="section performance" id="performance">
+      <div class="container">
+        <div class="section-head reveal">
+          <p class="section-eyebrow">02 &mdash; Performance</p>
+          <h2 class="section-title">Findings by the <span class="grad-text">numbers</span></h2>
+          <p class="section-lede">
+            A snapshot of reported vulnerabilities and where they stack up
+            against other researchers on the platform.
+          </p>
+        </div>
+
+        <div class="perf-grid">
+          <div class="panel percentile-panel reveal">
+            <h3 class="panel-title">Priority percentiles</h3>
+            <p class="panel-sub">Standing vs. other researchers, by reported priority.</p>
+            <ul class="percentile-list">
+              <li class="percentile-row">
+                <span class="pill pill-p1">P1</span>
+                <div class="bar-track"><span class="bar-fill bar-p1"></span></div>
+                <span class="bar-value">0th</span>
+              </li>
+              <li class="percentile-row">
+                <span class="pill pill-p2">P2</span>
+                <div class="bar-track"><span class="bar-fill bar-p2"></span></div>
+                <span class="bar-value">0th</span>
+              </li>
+              <li class="percentile-row">
+                <span class="pill pill-p3">P3</span>
+                <div class="bar-track"><span class="bar-fill bar-p3"></span></div>
+                <span class="bar-value">0th</span>
+              </li>
+              <li class="percentile-row">
+                <span class="pill pill-p4">P4</span>
+                <div class="bar-track"><span class="bar-fill bar-p4"></span></div>
+                <span class="bar-value">76th</span>
+              </li>
+              <li class="percentile-row">
+                <span class="pill pill-p5">P5</span>
+                <div class="bar-track"><span class="bar-fill bar-p5"></span></div>
+                <span class="bar-value">81st</span>
+              </li>
+            </ul>
+            <p class="panel-foot">A lower percentile is better &mdash; 0th sits at the very top.</p>
+          </div>
+
+          <div class="panel target-panel reveal" data-reveal-delay="1">
+            <h3 class="panel-title">Reported vulnerabilities</h3>
+            <p class="panel-sub">Breakdown of submissions by target type.</p>
+            <div class="donut-wrap">
+              <div class="donut">
+                <svg class="donut-svg" viewBox="0 0 200 200" role="img" aria-label="17 of 20 reported vulnerabilities are web applications, about 85 percent">
+                  <circle class="donut-track" cx="100" cy="100" r="86"></circle>
+                  <circle class="donut-arc" cx="100" cy="100" r="86" data-arc="0.85"></circle>
+                </svg>
+                <div class="donut-hole">
+                  <span class="donut-total" data-count="20">0</span>
+                  <span class="donut-label">total</span>
+                </div>
+              </div>
+            </div>
+            <ul class="legend">
+              <li class="legend-item">
+                <span class="swatch swatch-web"></span>
+                <span class="legend-name">Web App</span>
+                <span class="legend-count">17</span>
+              </li>
+              <li class="legend-item">
+                <span class="swatch swatch-other"></span>
+                <span class="legend-name">Other</span>
+                <span class="legend-count">3</span>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section achievements" id="achievements">
+      <div class="container">
+        <div class="section-head reveal">
+          <p class="section-eyebrow">03 &mdash; Achievements</p>
+          <h2 class="section-title">Milestones on <span class="grad-text">Bugcrowd</span></h2>
+          <p class="section-lede">
+            Levels unlocked by consistent, valid reporting.
+          </p>
+        </div>
+
+        <div class="achievement-grid">
+          <article class="achievement-card reveal">
+            <div class="achievement-media">
+              <img src="assets/badge-shogun.svg" alt="Submission Shogun Level 3 badge" />
+            </div>
+            <div class="achievement-body">
+              <h3 class="achievement-title">Submission Shogun</h3>
+              <span class="achievement-level">Level 3</span>
+              <p class="achievement-text">
+                Sustained submission volume across the program, with reports
+                that pass triage.
+              </p>
+            </div>
+          </article>
+
+          <article class="achievement-card reveal" data-reveal-delay="1">
+            <div class="achievement-media">
+              <img src="assets/badge-bounty-bee.svg" alt="Bounty Bee Level 2 badge" />
+            </div>
+            <div class="achievement-body">
+              <h3 class="achievement-title">Bounty Bee</h3>
+              <span class="achievement-level">Level 2</span>
+              <p class="achievement-text">
+                A bounty landed on a valid, accepted, and retested finding.
+              </p>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section halloffame" id="halloffame">
+      <div class="container">
+        <div class="section-head reveal">
+          <p class="section-eyebrow">04 &mdash; Hall of Fame</p>
+          <h2 class="section-title">Trusted on <span class="grad-text">real programs</span></h2>
+          <p class="section-lede">
+            Engagements where I have valid submissions on the record.
+          </p>
+        </div>
+
+        <div class="hof-card reveal">
+          <div class="hof-logo">
+            <img src="assets/intercom.png" alt="Intercom logo" />
+          </div>
+          <div class="hof-body">
+            <h3 class="hof-name">Intercom</h3>
+            <p class="hof-meta">Public engagement &middot; Valid submissions on record</p>
+          </div>
+          <a class="btn btn-ghost hof-link" href="https://bugcrowd.com/engagements/dd07e259-c5ae-4a35-8912-6ae6a251460b" target="_blank" rel="noopener noreferrer">
+            View Program
+            <svg class="btn-arrow" viewBox="0 0 24 24" aria-hidden="true"><path d="M7 17L17 7M9 7h8v8"/></svg>
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <section class="section contact" id="contact">
+      <div class="container">
+        <div class="contact-card reveal">
+          <div class="contact-glow" aria-hidden="true"></div>
+          <h2 class="contact-title">Let's find the next bug</h2>
+          <p class="contact-text">
+            Have a scope that needs eyes, or want to talk shop on web app
+            vulnerabilities? My public Bugcrowd profile is the best place to
+            start.
+          </p>
+          <div class="contact-actions">
+            <a class="btn btn-primary btn-lg" href="https://bugcrowd.com/h/cukurukuk" target="_blank" rel="noopener noreferrer">
+              Find me on Bugcrowd
+              <svg class="btn-arrow" viewBox="0 0 24 24" aria-hidden="true"><path d="M7 17L17 7M9 7h8v8"/></svg>
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <div class="footer-left">
+        <img class="footer-mark" src="assets/avatar.jpg" alt="" aria-hidden="true" />
+        <div>
+          <span class="footer-name">cukurukuk</span>
+          <span class="footer-role">Security Researcher &middot; Indonesia</span>
+        </div>
+      </div>
+      <nav class="footer-nav" aria-label="Footer">
+        <a class="footer-link" href="#about">About</a>
+        <a class="footer-link" href="#stats">Stats</a>
+        <a class="footer-link" href="#achievements">Achievements</a>
+        <a class="footer-link" href="https://bugcrowd.com/h/cukurukuk" target="_blank" rel="noopener noreferrer">Bugcrowd</a>
+      </nav>
+    </div>
+    <div class="container footer-bottom">
+      <span>&copy; <span id="year">2026</span> cukurukuk. Built with vanilla HTML, CSS &amp; JS.</span>
+    </div>
+  </footer>
+
+  <script src="js/main.js"></script>
+</body>
+</html>
